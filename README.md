@@ -1,6 +1,6 @@
 # Python HWID Auth
 
-- Protects your project from unauthorized users by using their HWIDs
+- Protects your app from unauthorized users by using their HWIDs
 
 # Usage
 
