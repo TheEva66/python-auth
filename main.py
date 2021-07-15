@@ -1,7 +1,7 @@
 import subprocess, requests, time, os
 
 hwid = subprocess.check_output('wmic csproduct get uuid').decode().split('\n')[1].strip()
-r = requests.get('https://github.com/cankatx/users/blob/main/users')
+r = requests.get('URL_HERE') # Paste your URL  e.g(https://pastebin.com)
 
 try:
     if hwid in r.text:
